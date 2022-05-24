@@ -1,0 +1,20 @@
+body{
+    background-color: aquamarine;
+}
+h1{
+    background-color: green;
+    font-size: 100px;
+    color: white;
+}
+
+p{
+    background-color: white;
+    font-size: 14px;
+    color: purple;
+}
+
+a{
+    text-decoration: none;
+    border: 5px solid purple;
+    color: black;
+}
