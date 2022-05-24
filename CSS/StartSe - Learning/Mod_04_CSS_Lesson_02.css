@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(119, 113, 80);
+}
+h1{
+    font-size: 50px;
+    font-style: oblique;
+    color: rgb(88, 111, 112);
+    border: 3px dotted w778899;
+    border-radius: 10px;
+    padding: 10px;
+    width: 360px;
+    text-align: justify;
+    background: #AABBCC;
+    
+}
+p{
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(70, 62, 94);
+}
