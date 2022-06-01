@@ -10,6 +10,7 @@ function initMap(): void {
 declare global {
   interface Window {
     initMap: () => void;
+    
   }
 }
 window.initMap = initMap;
