@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script type="module" src="./index.js"></script>
+    
+    <title>Rota de Crise - Demo</title>
+</head>
+
+<body>
+    <section id="selecao">
+        <div class="selecao container">
+            <div>
+                <h1>Rota da Crise - Demo</h1>
+
+                <p>Selecione a unidade em crise</p>
+                
+                <form action="/action_page.php">
+                    <label for="unidade">Escolha a unidade:</label>
+                    <select name="unidade" id="unidade">
+                        <option value="Selecionar">>>Selecionar<<</option>
+                        <option value="Badim">Hospital Badim</option>
+                        <option value="Norte">Hospital Norte D'Or</option>
+                        <option value="Rios">Hospital Rios D'Or</option>
+                        <option value="Quinta">Hospital Quinta D'Or</option>
+                    </select>
+                    <br><br>
+                    <input type="submit" value="Calcular">
+                </form>
+            </div>
+        </div>
+    </section>
+    <section id="resultado">
+        <div class="resultado container">
+            <div>
+                <table>
+                    <tr>
+                      <th>Origem</th>
+                      <th>Destino</th>
+                      <th>Distância</th>
+                      <th>Tempo</th>
+                    </tr>
+                    <tr>
+                      <td>AAAA</td>
+                      <td>BBBB</td>
+                      <td>9999</td>
+                      <td>0000</td>
+                    </tr>
+                    <tr>
+                      <td>AAAA</td>
+                      <td>CCCC</td>
+                      <td>9999</td>
+                      <td>0000</td>
+                    </tr>
+                    <tr>
+                      <td>AAAA</td>
+                      <td>DDDD</td>
+                      <td>9999</td>
+                      <td>0000</td>
+                    </tr>
+                    <tr>
+                      <td>AAAA</td>
+                      <td>EEEE  </td>
+                      <td>9999</td>
+                      <td>0000</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>    
+    <section id="map">
+        <div class="map container">
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDgR2C-ViRmR9iQW4nehpuQPXLw2cSaZ4&callback=initMap&v=weekly" defer
+    ></script>
+        </div>
+    </section>  
+</body>
+<footer>
+    Powered by <a href="mailto:heldervianarj@gmail.com">Helder Viana</a> e 
+               <a href="mailto:jeffersongonc.pt@gmail.com">Jefferson Gonçalves</a>.
+</footer>
+
+</html>
