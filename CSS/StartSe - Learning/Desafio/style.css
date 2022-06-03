@@ -16,7 +16,7 @@ html{
 header {
     color: white;
     font-size: 35px;
-    padding: 30px;
+    padding: 0px;
     text-align: center;
 }
 /* Style the Logo*/
@@ -26,8 +26,16 @@ header img{
     width: 50px;
     overflow: hidden;
     position: relative;
-    margin-left: auto;;
 }
+footer img{
+    flex-basis: auto;
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+    position: relative;
+    margin-left: auto;
+}
+
 /*Style the menu*/
 #_menu{
     text-align: right;    
@@ -42,6 +50,9 @@ header img{
     display: inline;
 }
 
+#menu ul li a img{
+    width: 20%;
+}
 #_menu .cta{
     display: inline-block;
     padding: 10px 30px;
