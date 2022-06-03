@@ -7,9 +7,59 @@
 }
 
 html{
+    background-image: linear-gradient(60deg, #83d6e9 0%, #1898b5 100%);
     font-size: 10px;
     font-family: 'El Messiri', 'Times New Roman', Times, serif;
     scroll-behavior: smooth;
+}
+/* Style the header */
+header {
+    color: white;
+    font-size: 35px;
+    padding: 30px;
+    text-align: center;
+}
+/* Style the Logo*/
+header img{
+    flex-basis: auto;
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+    position: relative;
+    margin-left: auto;;
+}
+/*Style the menu*/
+#_menu{
+    text-align: right;    
+}
+#_menu ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+#_menu li{
+    margin-left: 2px;
+    display: inline;
+}
+
+#_menu .cta{
+    display: inline-block;
+    padding: 10px 30px;
+    color: darkorange;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 20px;
+    transition: .5s ease;
+    transition-property: background-color, color;
+}
+
+#_menu .cta:hover{
+    color: white;
+    font-weight: 500;
+    background-color: darkorange;
 }
 
 a{
@@ -92,25 +142,7 @@ p{
     animation: blinkCursor 500ms steps(40) infinite normal, typing 4s steps(40) 1s normal both;
 }
 
-#presentation .cta{
-    display: inline-block;
-    padding: 10px 30px;
-    color: darkorange;
-    background-color: transparent;
-    border: 2px solid darkorange;
-    font-size: 2rem;
-    text-transform: uppercase;
-    letter-spacing: .1rem;
-    margin-top: 20px;
-    transition: .5s ease;
-    transition-property: background-color, color;
-}
 
-#presentation .cta:hover{
-    color: white;
-    font-weight: 500;
-    background-color: darkorange;
-}
 
 #presentation h1 span{
     position: absolute;
