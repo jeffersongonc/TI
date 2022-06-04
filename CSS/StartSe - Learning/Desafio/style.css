@@ -1,23 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&display=swap');
 
 *{
-    padding: 0;
-    margin: 0;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
 }
 
-html{
-    background-image: linear-gradient(60deg, #83d6e9 0%, #1898b5 100%);
+html, body{
+    color: white;
     font-size: 10px;
     font-family: 'El Messiri', 'Times New Roman', Times, serif;
+    height: 100vh;
+    text-rendering: optimizeLegibility;
     scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
 }
 /* Style the header */
-header {
+header{
+    background-image: linear-gradient(60deg, #83d6e9 0%, #1898b5 100%);
+}
+header .container{
+    display: flex;/*Deixa responsivo*/
+    align-items: center;
+    justify-content: space-between;
+    max-width: 980px;/*Até aonde para de crescer*/
+    height: 80px;
+    margin: auto;
+}
+header nav ul{
+    display: flex;
+}
+header nav ul li{
+    list-style: none;
+} 
+header nav ul li a{
+    text-decoration: none;/*Remove configurações*/
     color: white;
-    font-size: 35px;
-    padding: 0px;
-    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 24px;
+    transition: all 250ms linear 0s;/*Efeito de transição na abertura*/
 }
 /* Style the Logo*/
 header img{
@@ -34,24 +57,6 @@ footer img{
     overflow: hidden;
     position: relative;
     margin-left: auto;
-}
-
-/*Style the menu*/
-#_menu{
-    text-align: right;    
-}
-#_menu ul{
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-}
-#_menu li{
-    margin-left: 2px;
-    display: inline;
-}
-
-#menu ul li a img{
-    width: 20%;
 }
 #_menu .cta{
     display: inline-block;
@@ -76,13 +81,31 @@ footer img{
 a{
     text-decoration: none;
 }
+/*Style the menu
+#_menu{
+    text-align: right;    
+}
+#_menu ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+#_menu li{
+    margin-left: 2px;
+    display: inline;
+}
+
+#menu ul li a img{
+    width: 20%;
+}
+
 
 img{
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
-
+*/
 p{
     font-size: 1.4rem;
     margin-top: 5px;
