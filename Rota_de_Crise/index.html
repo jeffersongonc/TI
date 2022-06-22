@@ -1,88 +1,85 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-    <link rel="stylesheet" type="text/css" href="./style.css" />
-    <script type="module" src="./index.js"></script>
-    
-    <title>Rota de Crise - Demo</title>
+    <script type="text/javascript"
+            src="http://maps.google.com/maps/api/js?key=AIzaSyBDgR2C-ViRmR9iQW4nehpuQPXLw2cSaZ4&callback=initMap&v=weekly"></script>
+    <script type="text/javascript" src="./JS/jquery.min.js"></script>
+    <script type="text/javascript" src="./JS/index.js"></script>
+    <link rel="stylesheet" type="text/css" href="./CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="./CSS/responsive.css">
+    <title>Transferência entre Unidades</title>
 </head>
 
-<body>
-    <section id="selecao">
-        <div class="selecao container">
-            <div>
-                <h1>Rota da Crise - Demo</h1>
+<body onload="initialize()">
+    <header>
+        <div class="container">
+            <img src="./Imagens/logo.png" alt="logo">
+            <div class="_menu">
+                <div class="_menu_container">
+                    <input type="checkbox" id="_menu_checkbox">
+                    <label for="_menu_checkbox">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+                    <nav>
+                        <ul class="_menu_li">
+                            <li>
+                                <a href="#_home">Início</a>
+                            </li>
+                            <li>
+                                <a href="#">Rotas</a>
+                            </li>
+                            <li>
+                                <a href="#">Ajuda</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
 
-                <p>Selecione a unidade em crise</p>
-                
-                <form action="/action_page.php">
-                    <label for="unidade">Escolha a unidade:</label>
-                    <select name="unidade" id="unidade">
-                        <option value="Selecionar">>>Selecionar<<</option>
-                        <option value="Badim">Hospital Badim</option>
-                        <option value="Norte">Hospital Norte D'Or</option>
-                        <option value="Rios">Hospital Rios D'Or</option>
-                        <option value="Quinta">Hospital Quinta D'Or</option>
+    <main id="_home">
+        <div class="_main_container">
+            <div>
+                <h3><span>Transferência entre Unidades</span></h3>
+                <h4>Selecione a unidade de Origem</h4>
+                <form action="" method="post" id="form_route">
+                    <select name="unidade" id="unidade" onchange="f_tempo()">
+                        <option value="blank">Selecionar...</option>
+                        <option value="Hospital Barra D´Or">Hospital Barra D'Or</option>
+                        <option value="Hospital Quinta D´Or">Hospital Quinta D'Or</option>
                     </select>
-                    <br><br>
-                    <input type="submit" value="Calcular">
+                    <br>
+                    <h4>Selecione a unidade de Destino</h4>
+                    <select name="uni_destino" id="uni_destino">
+                        <option value="blank">Selecionar...</option>
+                    </select>
+                    <br>
+                    <input type="button" value="Traçar Rota" onclick="f_Route()">
                 </form>
+                
             </div>
+            <img src="./Imagens/mapa.png" alt="">
         </div>
-    </section>
-    <section id="resultado">
-        <div class="resultado container">
-            <div>
-                <table>
-                    <tr>
-                      <th>Origem</th>
-                      <th>Destino</th>
-                      <th>Distância</th>
-                      <th>Tempo</th>
-                    </tr>
-                    <tr>
-                      <td>AAAA</td>
-                      <td>BBBB</td>
-                      <td>9999</td>
-                      <td>0000</td>
-                    </tr>
-                    <tr>
-                      <td>AAAA</td>
-                      <td>CCCC</td>
-                      <td>9999</td>
-                      <td>0000</td>
-                    </tr>
-                    <tr>
-                      <td>AAAA</td>
-                      <td>DDDD</td>
-                      <td>9999</td>
-                      <td>0000</td>
-                    </tr>
-                    <tr>
-                      <td>AAAA</td>
-                      <td>EEEE  </td>
-                      <td>9999</td>
-                      <td>0000</td>
-                    </tr>
-                </table>
+        <section id="_resultado">
+            <div class="_resultado_container">
+                <div id="_resultado_tabela">
+                </div>
             </div>
-        </div>
-    </section>    
-    <section id="map">
-        <div class="map container">
-            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDgR2C-ViRmR9iQW4nehpuQPXLw2cSaZ4&callback=initMap&v=weekly" defer
-    ></script>
-        </div>
-    </section>  
+        </section>
+    </main>
+    <div id="map_content">
+    </div>
+    <footer>
+        Powered by <a href="mailto:heldervianarj@gmail.com">Helder Viana</a> e
+        <a href="mailto:jeffersongonc.pt@gmail.com">Jefferson Gonçalves</a> - 2022.
+    </footer>
 </body>
-<footer>
-    Powered by <a href="mailto:heldervianarj@gmail.com">Helder Viana</a> e 
-               <a href="mailto:jeffersongonc.pt@gmail.com">Jefferson Gonçalves</a>.
-</footer>
-
 </html>
