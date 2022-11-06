@@ -32,6 +32,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 💻 Projeto
 
 O Calendário da Copa é um projeto que mostra os jogos da Copa de 2022.
+Neste projeto foram abordados conceitos de CSS, JavaScript e Git.
+Foram abordados métodos de refatoração de código (Clean Code) e uso
+de métodos básicos para Orientação de Objetos (OO)/reutilização de código.
 
 ## 🔖 Layout
 
