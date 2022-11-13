@@ -37,15 +37,15 @@ Foram abordados métodos de refatoração de código (Clean Code), responsividad
 de métodos básicos para Orientação de Objetos (OO)/reutilização de código.
 
 Antes de compilar o projeto é necessário instalar os recursos conforme abaixo:
-React.js
-  yarn create react-app react-<nome do projeto>
-  yarn add bootstrap
-  yarn add react-input-mask
-Node.js
-  yarn add express cors
-  yarn add sucrase --dev
-  yarn add nodemon --dev
-  yarn add API (node-correios)
+- React.js
+  - yarn create react-app react-<nome do projeto>
+  - yarn add bootstrap
+  - yarn add react-input-mask
+- Node.js
+  - yarn add express cors
+  - yarn add sucrase --dev
+  - yarn add nodemon --dev
+  - yarn add API (node-correios)
 
 ## 🔖 Layout
 
