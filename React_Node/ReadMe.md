@@ -38,7 +38,7 @@ de métodos básicos para Orientação de Objetos (OO)/reutilização de código
 
 Antes de compilar o projeto é necessário instalar os recursos conforme abaixo:
 - React.js
-  - yarn create react-app react-<nome do projeto>
+  - yarn create react-app react-nome_do_projeto
   - yarn add bootstrap
   - yarn add react-input-mask
 - Node.js
