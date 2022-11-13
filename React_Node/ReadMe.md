@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  //<img alt="License">
+  <img Busca_CEP.png alt="License">
 </p>
 
 <br>
@@ -28,6 +28,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Bootstrap
 - API CEP
 - Git e Github
+- Obs.: É necessário seguir as orientações do arquivo dicas.txt para que o projeto funcione.
 
 ## 💻 Projeto
 
