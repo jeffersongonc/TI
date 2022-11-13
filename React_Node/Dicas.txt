@@ -1,0 +1,32 @@
+* Criar a pasta do projeto
+* Abrir o VSCode e abrir a pasta do projeto
+
+React
+* Abrir o Terminal do VSCode e digitar yarn create react-app react-<nome do projeto> 
+    https://create-react-app.dev/docs/getting-started/
+* Deixar apenas em ./src 
+    App.css
+    App.js
+    index.css
+    index.js
+    --setupTests.js
+* No terminal executar o comando yarn add bootstrap
+* Importar o bootstrap no index.js (import 'bootstrap/dist/css/bootstrap.min.css';)
+
+Node
+* Criar a pasta node-<nome do projeto>
+* Abrir o Terminal do VSCode nessa nova pasta 
+* Digitar no terminal yarn init para criar o package.json
+* Digitar no terminal yarn add express cors
+* Criar dentro do VSCode no projeto a pasta src
+* Criar o arquivo .env no VSCode
+* Criar app.js e importar express e cors
+* Digitar no terminal yarn add sucrase --dev (Para compatibilidade)
+* Digitar no terminal yarn add nodemon --dev (Para usar com BD MongoDB, somente quando necessário)
+* Criar o arquivo nodemoon.json para configuração
+* Editar package.json "scripts": {"dev": "nodemon ./src/server.js"} após o devDependencies (Para rodar no terminal com o comando yarn dev)
+* Criar o arquivo server.js dentro ./src
+* Criar a pasta controllers dentro de ./src
+* Criar o arquivo <nome_da_class>Controller.js dentro de ./src/controllers
+* Criar o arquivo routes.js na pasta ./src
+* executar yarn add API (node-correios)
