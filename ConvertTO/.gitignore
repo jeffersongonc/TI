@@ -3,3 +3,7 @@ venv/
 venv.bak/
 __pycache__
 __pycache__/
+
+.pdf
+.doc
+.docx
