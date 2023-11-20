@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD - SQLAlchemy</title>
+</head>
+<body>
+    <h1 style="text-align: center;">CRUD - SQLAlchemy</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <a href="/add">Adicionar Usuário</a>
+            </div>
+            <div class="col-xs-12">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>E-mail</th>
+                            <th>Sobre</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    {% for u in users %}
+                        <tr>
+                            <td>{{u.username}}</td>
+                            <td>{{u.email}}</td>
+                            <td>{{u.about_me}}</td>
+                            <td>
+                                <a href="/edit/{{u.id}}">Editar</a> |
+                                <a href="/delete/{{u.id}}">Deletar</a>
+                            </td>
+                        </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar Usuário</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<body>
+    <h1 style="text-align:center">Cadastro de Novos Usuários</h1>
+    <form action="/add" class="container" method="post">
+        <div class="row">
+            <div class="col-md-6">
+                <input type="text" name="username" id="username" placeholder="username" class="form-control">
+            </div>
+            <div class="col-md-6">
+                <input type="text" name="email" id="email" placeholder="email" class="form-control">
+            </div>
+            <div class="col-md-6">
+                <input type="text" name="about_me" id="about_me" placeholder="about_me" class="form-control">
+            </div>
+        </div>
+        <br>
+        <div class="row col-xs-12">
+            <button type="submit" class="btn-block btn-success">Enviar</button>
+        </div>
+    </form>
+
+    <iframe style = "transition: 0.75;" title="Censo Hospitais" width="900px" height="280px" src="https://app.powerbi.com/reportEmbed?reportId=59b0ba81-8215-467c-a436-88af49de88eb&autoAuth=true&ctid=03a1fb23-83f2-4fbf-81f9-e40d15b58719" frameborder="0" allowFullScreen="true"></iframe>
+</body>
+</html>

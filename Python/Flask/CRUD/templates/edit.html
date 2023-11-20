@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Usuário</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<body>
+    <h1 style="text-align:center">Editar {{ users.username }}</h1>
+    <form action="/edit/{{users.id}}" class="container" method="post">
+        <div class="row">
+            <div class="col-md-6">
+                <input type="text" name="username" id="username" placeholder="username" class="form-control" value="{{users.username}}">
+            </div>
+            <div class="col-md-6">
+                <input type="text" name="email" id="email" placeholder="email" class="form-control" value="{{users.email}}">
+            </div>
+            <div class="col-md-6">
+                <input type="text" name="about_me" id="about_me" placeholder="about_me" class="form-control" value="{{users.about_me}}">
+            </div>
+        </div>
+        <br>
+        <div class="row col-xs-12">
+            <button type="submit" class="btn-block btn-success">Enviar</button>
+        </div>
+    </form>
+</body>
+</html>
