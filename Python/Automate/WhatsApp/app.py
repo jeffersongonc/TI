@@ -34,7 +34,7 @@ mensagem = """Fala galera!
 Teste de automação de mensagens.
 """
 meucontato = os.environ.get("MY_CONTACT") or "NONE"
-lista_contatos = ["Rico", "Banco Pan", "Banco Safra", "Banco BMG"]
+lista_contatos = os.environ.get("LIST_CONTACT") or "NONE"
 tam_bloco = 3
 
 def open_browse():
