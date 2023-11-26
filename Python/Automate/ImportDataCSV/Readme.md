@@ -31,15 +31,15 @@ Utilizando apenas **PYTHON** e as bibliotecas:
 > - Para instalação das bibliotecas do projeto, ainda no terminal execute o comando: pip install -r requirements.txt
 > - Para executar os arquivos do Python, use o comando: python -m <nome_arquivo.py>
 
-*** Atenção ***
-- Para identificar a posição dos campos no navegador, abra o site e posteriormente execute o findposition.py para clicar nos campos e coletar qual a posição na sua janela. Estas referências serão usadas nas funções "pyautogui.click(x=0, y=0)".
+## Atenção ##
+> - Para identificar a posição dos campos no navegador, abra o site e posteriormente execute o findposition.py para clicar nos campos e coletar qual a posição na sua janela. Estas referências serão usadas nas funções "pyautogui.click(x=0, y=0)".
 
-Para aprender mais sobre as ferramentas utilizadas, acesse:
+> - Para aprender mais sobre as ferramentas utilizadas, acesse:
 
-<a href = "https://docs.python.org/3/">Python</a>
-<a href = "https://pyautogui.readthedocs.io/en/latest/">PyAutogui</a>
-<a href = "https://pandas.pydata.org/docs/index.html">Pandas</a>
-<a href = "https://docs.python.org/3/library/time.html">Time</a> 
+<a href = "https://docs.python.org/3/">Python</a></br>
+<a href = "https://pyautogui.readthedocs.io/en/latest/">PyAutogui</a></br>
+<a href = "https://pandas.pydata.org/docs/index.html">Pandas</a></br>
+<a href = "https://docs.python.org/3/library/time.html">Time</a></br>
 
-Instalações necessárias:
+> - Instalações necessárias:
 <a href = "https://www.python.org/downloads/">Python</a>
