@@ -24,7 +24,7 @@
           width="40"
           height="40"
         />
-        <img width="12" /> Python
+        <img width="10" /> Python
       </td>
       <td>
         <img
@@ -32,7 +32,7 @@
           height="40"
           alt="javascript logo"
         />
-        <img width="12" /> Javascript
+        <img width="10" /> Javascript
       </td>
       <td>
         <img
@@ -40,7 +40,7 @@
           height="40"
           alt="html5 logo"
         />
-        <img width="12" /> HTML
+        <img width="10" /> HTML
       </td>
       <td>
         <img
@@ -48,7 +48,7 @@
           height="40"
           alt="css3 logo"
         />
-        <img width="12" /> CSS
+        <img width="10" /> CSS
       </td>
       <td>
         <img
@@ -57,7 +57,7 @@
           width="40"
           height="40"
         />
-        <img width="12" /> Bootstrap
+        <img width="10" /> Bootstrap
       </td>
     </tr>
     <tr>
@@ -68,7 +68,7 @@
         width="40"
         height="40"
         />
-        <img width="12" /> Oracle
+        <img width="10" /> Oracle
       </td>
       <td>
         <img
@@ -77,7 +77,7 @@
           width="40"
           height="40"
         />
-        <img width="12" /> Flask
+        <img width="10" /> Flask
       </td>
       <td>
         <img
@@ -85,7 +85,7 @@
           height="40"
           alt="git logo"
         />
-        <img width="12" /> Git
+        <img width="10" /> Git
       </td>
       <td>
         <img
@@ -93,7 +93,7 @@
           height="40"
           alt="github logo"
         />
-        <img width="12" /> GitHub
+        <img width="10" /> GitHub
       </td>
       <td>
         <img
@@ -101,7 +101,7 @@
           height="40"
           alt="vscode logo"
         />
-        <img width="12" /> Visual Studio Code
+        <img width="10" /> VSCode
       </td>
     </tr>
       <td>
@@ -110,7 +110,7 @@
           height="40"
           alt="azure repos"
         />
-        <img width="12" /> Azure Repos
+        <img width="10" /> AzureRepos
       </td>
       <td>
         <img
@@ -118,7 +118,7 @@
           height="40"
           alt="sqlalchemy"
         />
-        <img width="12" /> SQLAlchemy
+        <img width="10" /> SQLAlchemy
       </td>
       <td>
         <img
@@ -126,7 +126,7 @@
           height="40"
           alt="mapbox"
         />
-        <img width="12" /> API MapBox
+        <img width="10" /> MapBox
       </td>
       <td>
         <img
@@ -134,7 +134,7 @@
           height="40"
           alt="google maps"
         />
-        <img width="12" /> API Google Maps
+        <img width="10" /> GoogleMaps
       </td>
     <tr>
     </tr>
