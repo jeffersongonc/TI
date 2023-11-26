@@ -4,6 +4,7 @@
 
 import pyautogui
 import time
+import pandas as pd
 
 # pyautogui.write -> escrever um texto
 # pyautogui.press -> apertar 1 tecla
@@ -40,8 +41,6 @@ pyautogui.click(x=897, y=816) # clique no botao de login
 time.sleep(3)
 
 # Passo 3: Importar a base de produtos pra cadastrar
-import pandas as pd
-
 tabela = pd.read_csv("produtos.csv")
 
 print(tabela)
