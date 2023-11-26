@@ -6,6 +6,9 @@
 - How to reach me **jeffbroffice@gmail.com**
 
 - Fact about me **I love working with IT, watch moovies and series**
+
+- My Git portifolio are: <a href="https://github.com/jeffersongonc/TI" target="blank">Here</a>
+  
 <hr/>
 <h3 align="left">Connect with me:</h3>
 <p align="left">
