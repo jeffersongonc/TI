@@ -5,8 +5,12 @@ import requests
 import json
 from datetime import datetime
 import time
+from dotenv import load_dotenv
 
-MAPBOX_APIKEY = os.getenv("MAPBOX_APIKEY", "NONE")
+basedir = os.path.abspath(os.path.dirname(__file__))
+load_dotenv(os.path.join(basedir, '.env'))
+
+MAPBOX_APIKEY = os.environ.get("MAPBOX_APIKEY") or "NONE"
 unidades = {"Unidades":[
             {"Unidade": "Hospital Barra D´Or", "Latitude": "-22.98314", "Longitude": "-43.36709"},
             {"Unidade": "Hospital Copa D´Or", "Latitude": "-22.96507", "Longitude": "-43.19044"},
@@ -26,7 +30,6 @@ steps = f'&steps=false'
 dt_now = datetime.now().strftime("%Y-%m-%dT%H:%M")
 depart_at = f'&depart_at='+dt_now
 access_token = f'&access_token={MAPBOX_APIKEY}'
-print(MAPBOX_APIKEY)
 
 for j in range(3):
     destination = unidades["Unidades"][j]["Longitude"] + ',' + unidades["Unidades"][j]["Latitude"] + '?'
