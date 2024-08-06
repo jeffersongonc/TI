@@ -8,7 +8,7 @@ from langchain_core.prompts import ChatPromptTemplate
 load_dotenv()
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY") or "AIzaSyCI-RqPTek5WKQZVY0qRMHiWrhljVSJzYg"
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY") or NONE
 
 def llm_openai():
     mensagens = [
@@ -40,7 +40,7 @@ def llm_gemini_ai():
     #template_mensagens.invoke()
     chain = template_mensagens | modelo | parser
     texto = chain.invoke({"idioma": "responder separadamente a data da ocorrência, hora, nome do paciente, somente o nome de quem fez o contato e se fez depósito", "texto": "DATA DA OCORRENCIA: 06/08/2024 / HORA: 12:20 / NOME DO PACIENTE: JEFFERSON DA SILVA GONÇALVES / SETOR: ALA 5 / DEPOSITOU?: SIM / DESCRICAO DA OCORRENCIA: HOJE A MAE DA PACIENTE RECEBEU UMA LIGAÇÃO NO CELULAR DE UMA PESSOA CHAMADA JOAO QUE IDENTIFICOU_SE COMO CARDIOLOGISTA"})
-    print("TEXTO: DATA DA OCORRENCIA: 06/08/2024 / HORA: 12:20 / NOME DO PACIENTE: JEFFERSON DA SILVA GONÇALVES / SETOR: ALA 5 / DEPOSITOU?: SIM / DESCRICAO DA OCORRENCIA: HOJE A MAE DA PACIENTE RECEBEU UMA LIGAÇÃO NO CELULAR DE UMA PESSOA CHAMADA JOAO QUE IDENTIFICOU_SE COMO CARDIOLOGISTA")
+    print("TEXTO: DATA DA OCORRENCIA: 06/08/2024 / HORA: 12:20 / NOME DO PACIENTE: JEFFERSON / SETOR: ALA 5 / DEPOSITOU?: SIM / DESCRICAO DA OCORRENCIA: HOJE A MAE DA PACIENTE RECEBEU UMA LIGAÇÃO NO CELULAR DE UMA PESSOA CHAMADA JOAO QUE IDENTIFICOU_SE COMO CARDIOLOGISTA")
     print("PERGUNTA: Responder separadamente a data da ocorrência, hora, somente o nome do paciente, nome de quem fez o contato e se fez depósito")
     print(texto)
 
