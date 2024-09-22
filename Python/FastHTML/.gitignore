@@ -1,5 +1,6 @@
 .env
 .venv
+.sesskey
 
 venv/
 venv.bak/
