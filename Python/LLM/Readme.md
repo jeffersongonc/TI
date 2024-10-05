@@ -1,6 +1,6 @@
-<h1>LLMs/IA usando Gemini/OpenAI e FastHTML</h1>
+<h1>LLMs/IA usando Gemini/Groq/OpenAI e FastHTML</h1>
 
-<h3>Usar IA para tratamento de dados e chatbot usando Gemini/OpenAI com FastHTML no Python.</h3>
+<h3>Usar IA para tratamento de dados e chatbot usando Gemini/Groq/OpenAI com FastHTML no Python.</h3>
 <img src="https://github.com/jeffersongonc/TI/blob/main/Python/LLM/chatbot.png"/>
 ## 🔧 Funções
 
@@ -15,6 +15,7 @@ Utilizando apenas **PYTHON** e as bibliotecas:
 > - HTMX
 > - OpenAI
 > - Gemini
+> - Groq
 
 ## 📜 Conteúdo
 
@@ -36,6 +37,7 @@ Utilizando apenas **PYTHON** e as bibliotecas:
 <a href = "https://htmx.org/">HTMX</a></br>
 <a href = "https://platform.openai.com/docs/overview">OpenAI</a></br>
 <a href = "https://ai.google.dev/gemini-api/docs?hl=pt-br">Gemini</a></br>
+<a href = "https://console.groq.com/docs/quickstart">Groq</a></br>
 
 > - Instalações necessárias:
 <a href = "https://www.python.org/downloads/">Python</a>
