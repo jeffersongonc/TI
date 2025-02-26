@@ -5,7 +5,7 @@
 ## 🔧 Funções
 
 - Dia 1: Comparação de valores
-- Dia 2:
+- Dia 2: Perguntas
 - Dia 3:
 - Dia 4:
 - Dia 5:
