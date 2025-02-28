@@ -6,7 +6,7 @@
 
 - Dia 1: Comparação de valores
 - Dia 2: Perguntas
-- Dia 3:
+- Dia 3: Fluxo de Decisão
 - Dia 4:
 - Dia 5:
 - Dia 6:
