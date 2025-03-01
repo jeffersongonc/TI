@@ -8,7 +8,7 @@
 - Dia 2: Perguntas
 - Dia 3: Fluxo de Decisão
 - Dia 4: Jogo - Adivinhe o número
-- Dia 5:
+- Dia 5: Lista de Compras
 - Dia 6:
 - Dia 7:
 
