@@ -9,8 +9,8 @@
 - Dia 3: Fluxo de Decisão
 - Dia 4: Jogo - Adivinhe o número
 - Dia 5: Lista de Compras
-- Dia 6:
-- Dia 7:
+- Dia 6: Remover da lista de compras
+- Dia 7: Calculadora
 
 ## 👨‍💻 Tecnologias Utilizadas
 
