@@ -60,3 +60,4 @@ function perguntas(event){
 }
 
 perguntasDiaCinco.addEventListener('click', perguntas);
+export { listaCompras, exibirLista };
