@@ -1,16 +1,11 @@
-<h1>API sobre Clima</h1>
+<h1>API Multiuso</h1>
 
-<h3>Projeto criado para permitir coletar informações do clima de uma região.</h3>
+<h3>Projeto criado para permitir coletar informações de APIs diversas.</h3>
 
 ## 🔧 Funções
 
-- Consultar informações sobre:
--- Local
--- Estado
--- País
--- Temperatura em graus Celcius
--- Umidade do Ar
--- Condição do tempo
+- API Weather: Consultar informações sobre: Local, Estado, País, Temperatura em graus Celcius, Umidade do Ar e Condição do tempo;
+- Outras à definir
 
 ## 👨‍💻 Tecnologias Utilizadas
 
