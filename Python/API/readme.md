@@ -5,12 +5,14 @@
 ## 🔧 Funções
 
 - API Weather: Consultar informações sobre: Local, Estado, País, Temperatura em graus Celcius, Umidade do Ar e Condição do tempo;
+- API Via CEP: Consultar informações sobre: Endereço, DDD, código IBGE, Bairro, etc.
 - Outras à definir
 
 ## 👨‍💻 Tecnologias Utilizadas
 
 Utilizando apenas **PYTHON** e as bibliotecas:
 > - API Weather
+> - API Via CEP
 
 ## 📜 Conteúdo
 
@@ -29,6 +31,7 @@ Utilizando apenas **PYTHON** e as bibliotecas:
 
 <a href = "https://docs.python.org/3/">Python</a></br>
 <a href = "https://www.weatherapi.com/">API Weather</a></br>
+<a href = "https://viacep.com.br/">Via CEP</a></br>
 
 > - Instalações necessárias:
 <a href = "https://www.python.org/downloads/">Python</a>
