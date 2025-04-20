@@ -1,6 +1,6 @@
 import os
 import dotenv as de
-import requests as r
+from RestAPI import RestAPI
 
 de.load_dotenv()
 
@@ -12,31 +12,18 @@ class Weather:
         self.city = city
         self.url = f"{URL_API}?key={API_KEY}&q={self.city}&lang=pt" #&units=metric"
 
-    def get_weather(self) -> dict:
-        try:
-            response = r.get(self.url)
-            if response.status_code == 200:
-                retorno = {"Local": response.json()["location"]["name"],
-                            "Estado": response.json()["location"]["region"],
-                            "País": response.json()["location"]["country"],
-                            "Temperatura": response.json()["current"]["temp_c"],
-                            "Umidade": response.json()["current"]["humidity"],
-                            "Condição": response.json()["current"]["condition"]["text"]}
+    def get_weather(self, keys: str) -> dict:
+        api = RestAPI(self.url)
+        return api.get_data(keys)
 
-                return retorno
-            else:
-                return {"error": "Cidade não encontrada"}
-        except r.exceptions.RequestException as e:
-            return {"error": str(e)}
-
-clima = Weather("London")
-tempo = clima.get_weather()
-if "error" in tempo:
-    print(f"Erro: {tempo["error"]}")
-else:
-    print(f'''
-            Local: {tempo["Local"]} - Estado: {tempo["Estado"]} - País: {tempo["País"]}
-            Temperatura: {tempo["Temperatura"]}
-            Umidade: {tempo["Umidade"]}
-            Condição: {tempo["Condição"]}
-        ''')
+def obterClima(cidade: str, keys: str) -> dict:
+    clima = Weather(cidade)
+    print(clima.get_weather(keys))
+    
+obterClima(cidade="Nilopolis", 
+           keys=["location.name",
+                 "location.region",
+                 "location.country",
+                 "current.temp_c",
+                 "current.condition.text",
+                 "current.humidity"])
