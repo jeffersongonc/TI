@@ -1,5 +1,6 @@
 .env
 .venv
+.png
 
 venv/
 venv.bak/
