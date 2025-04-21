@@ -13,6 +13,8 @@
 Utilizando apenas **PYTHON** e as bibliotecas:
 > - API Weather
 > - API Via CEP
+> - API Cotação Moeda
+> - API Consulta CNPJ
 
 ## 📜 Conteúdo
 
@@ -32,6 +34,8 @@ Utilizando apenas **PYTHON** e as bibliotecas:
 <a href = "https://docs.python.org/3/">Python</a></br>
 <a href = "https://www.weatherapi.com/">API Weather</a></br>
 <a href = "https://viacep.com.br/">Via CEP</a></br>
+<a href = "https://dadosabertos.bcb.gov.br/dataset/dolar-americano-usd-todos-os-boletins-diarios/resource/ae69aa94-4194-45a6-8bae-12904af7e176">Cotação Moeda - BCB</a></br>
+<a href = "https://www.cnpj.ws/pt-BR">Consulta CNPJ.ws</a></br>
 
 > - Instalações necessárias:
 <a href = "https://www.python.org/downloads/">Python</a>
