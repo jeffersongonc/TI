@@ -34,4 +34,11 @@ def images():
     image = Titled("Images")
     return image
 
+@routes("/teste")
+def teste():
+    return Div(
+        "Teste",
+        id="teste"
+    )
+
 serve()
