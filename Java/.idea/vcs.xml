@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/CompararNumeros" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/DescontoCompra" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/DiaUtil" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Doador" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/HelloWorld" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/IntervaloValor" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MediaNotas" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Musicas" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/NivelPermissao" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ScreenMatch" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Triangulo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ValidarSenha" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/desafioMenuBanco" vcs="Git" />
+  </component>
+</project>

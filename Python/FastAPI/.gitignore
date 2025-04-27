@@ -1,0 +1,8 @@
+.env
+.venv
+.png
+
+venv/
+venv.bak/
+__pycache__
+__pycache__/

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CompararNumeros/CompararNumeros.iml" filepath="$PROJECT_DIR$/CompararNumeros/CompararNumeros.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DescontoCompra/DescontoCompra.iml" filepath="$PROJECT_DIR$/DescontoCompra/DescontoCompra.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DiaUtil/DiaUtil.iml" filepath="$PROJECT_DIR$/DiaUtil/DiaUtil.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Doador/Doador.iml" filepath="$PROJECT_DIR$/Doador/Doador.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HelloWorld/HelloWorld.iml" filepath="$PROJECT_DIR$/HelloWorld/HelloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IntervaloValor/IntervaloValor.iml" filepath="$PROJECT_DIR$/IntervaloValor/IntervaloValor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java.iml" filepath="$PROJECT_DIR$/.idea/Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MediaNotas/MediaNotas.iml" filepath="$PROJECT_DIR$/MediaNotas/MediaNotas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Musicas/Musicas.iml" filepath="$PROJECT_DIR$/Musicas/Musicas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NivelPermissao/NivelPermissao.iml" filepath="$PROJECT_DIR$/NivelPermissao/NivelPermissao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ScreenMatch/ScreenMatch.iml" filepath="$PROJECT_DIR$/ScreenMatch/ScreenMatch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Triangulo/Triangulo.iml" filepath="$PROJECT_DIR$/Triangulo/Triangulo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ValidarSenha/ValidarSenha.iml" filepath="$PROJECT_DIR$/ValidarSenha/ValidarSenha.iml" />
+      <module fileurl="file://$PROJECT_DIR$/desafioMenuBanco/desafioMenuBanco.iml" filepath="$PROJECT_DIR$/desafioMenuBanco/desafioMenuBanco.iml" />
+    </modules>
+  </component>
+</project>
