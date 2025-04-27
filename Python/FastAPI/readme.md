@@ -7,8 +7,8 @@
 - Faker: Gera dados fictícios para exemplos;
 - FastAPI: Cria APIs/rotas para consumo de dados.
 - FastAPI DOCS: Acessando o link "http://127.0.0.1:8000/docs#/", é exibida a documentação da API.
-<img align="left" src="FastAPI_DOCS.png" alt="FastAPI DOCS" />
-<img align="left" src="FastAPI_DATA.png" alt="FastAPI DADOS" />
+- <img align="center" src="FastAPI_DOCS.png" alt="FastAPI DOCS" height=300 width=300 />
+- <img align="center" src="FastAPI_DATA.png" alt="FastAPI DADOS" height=300 width=300 />
 
 ## 👨‍💻 Tecnologias Utilizadas
 
