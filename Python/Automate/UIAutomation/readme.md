@@ -9,31 +9,33 @@
 - Automatizar tarefas
 
 ## Descrição
-Ao utilizar o inspector.py, cada clique do mouse é apresentado no terminal para ser utilizado na automatizaão de tarefas.
-No exemplo abaixo, temos os dados do botao cancelar deuma janela.
--------------------------------
-Elemento Encontrado: Cancelar
-  Name (Título): Cancelar
-  ControlType: 50000
-  AutomationId: 
-  ClassName: QPushButton
-  NativeWindowHandle (HWND): 0
-  Caminho (Path): Área de Trabalho 1 (PaneControl - ID: ) -> Usuário 1 - Anki (WindowControl - ID: MainWindow) -> Exportar (WindowControl - ID: MainWindow.ExportDialog) ->  (GroupControl - ID: MainWindow.ExportDialog.buttonBox) -> Cancelar (ButtonControl - ID: )
--------------------------------
-Com os dados acima é possível configurar a automação utilizando o exemplo abaixo:
--------------------------------
-def automatizar():
-    janela = uia.WindowControl(searchDepth=1, Name="Usuário 1 - Anki")
-    #Pode ser utilizado *AutomationID* caso o dado seja capturado
-    menu = janela.MenuItemControl(Name="Arquivo")
-    menu.Click()
-    time.sleep(0.5)
-    submenu = janela.MenuItemControl(Name="Exportar")
-    submenu.Click()
-    time.sleep(0.5)
-    btnCancelar = janela.ButtonControl(Name="Cancelar")
-    btnCancelar.Click()
--------------------------------
+<pre>
+Ao utilizar o inspector.py, cada clique do mouse é apresentado no terminal para ser utilizado na automatizaão de tarefas. No exemplo abaixo, temos os dados do botao cancelar deuma janela. <br>
+X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X <br>
+Elemento Encontrado: Cancelar <br>
+  Name (Título): Cancelar <br>
+  ControlType: 50000 <br>
+  AutomationId: <br>
+  ClassName: QPushButton <br>
+  NativeWindowHandle (HWND): 0 <br>
+  Caminho (Path): Área de Trabalho 1 (PaneControl - ID: ) -> Usuário 1 - Anki (WindowControl - ID: MainWindow) -> Exportar (WindowControl - ID: MainWindow.ExportDialog) ->  (GroupControl - ID: MainWindow.ExportDialog.buttonBox) -> Cancelar (ButtonControl - ID: ) <br>
+X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X <br>
+
+Com os dados acima é possível configurar a automação utilizando o exemplo abaixo: <br>
+X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X <br>
+def automatizar(): <br>
+    janela = uia.WindowControl(searchDepth=1, Name="Usuário 1 - Anki") <br>
+    #Pode ser utilizado *AutomationID* caso o dado seja capturado <br>
+    menu = janela.MenuItemControl(Name="Arquivo") <br>
+    menu.Click() <br>
+    time.sleep(0.5) <br>
+    submenu = janela.MenuItemControl(Name="Exportar") <br>
+    submenu.Click() <br>
+    time.sleep(0.5) <br>
+    btnCancelar = janela.ButtonControl(Name="Cancelar") <br>
+    btnCancelar.Click() <br>
+X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X <br>
+</pre>
 
 ## 👨‍💻 Tecnologias Utilizadas
 
@@ -66,4 +68,5 @@ Utilizando apenas **PYTHON** e as bibliotecas:
 <a href = "https://thepythoncode.com/article/control-mouse-python">Mouse</a></br>
 
 > - Instalações necessárias:
+
 <a href = "https://www.python.org/downloads/">Python</a>
