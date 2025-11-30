@@ -1,0 +1,35 @@
+--- INSPETOR DE ELEMENTOS INICIADO ---
+Mova o cursor e clique sobre um elemento para registrar as propriedades.
+Pressione **ESC** a qualquer momento para sair.
+
+==================================================
+**Elemento Encontrado:** Arquivo
+==================================================
+  > Name (Título): **Arquivo**
+  > ControlType: **50011**
+  > AutomationId: ****
+  > ClassName: QAction
+  > NativeWindowHandle (HWND): 0
+  > Caminho (Path): Área de Trabalho 1 (PaneControl - ID: ) -> Usuário 1 - Anki (WindowControl - ID: MainWindow) ->  (MenuBarControl - ID: MainWindow.menubar) -> Arquivo (MenuItemControl - ID: ) 
+
+==================================================
+**Elemento Encontrado:** Exportar...
+==================================================
+  > Name (Título): **Exportar...**
+  > ControlType: **50011**
+  > AutomationId: **MainWindow.actionExport**
+  > ClassName: QAction
+  > NativeWindowHandle (HWND): 0
+  > Caminho (Path): Área de Trabalho 1 (PaneControl - ID: ) -> Usuário 1 - Anki (WindowControl - ID: MainWindow) ->  (MenuBarControl - ID: MainWindow.menubar) -> Arquivo (MenuItemControl - ID: ) ->  (MenuControl - ID: MainWindow.menubar.menuCol) -> Exportar... (MenuItemControl - ID: MainWindow.actionExport)
+
+==================================================
+**Elemento Encontrado:** Cancelar
+==================================================
+  > Name (Título): **Cancelar**
+  > ControlType: **50000**
+  > AutomationId: ****
+  > ClassName: QPushButton
+  > NativeWindowHandle (HWND): 0
+  > Caminho (Path): Área de Trabalho 1 (PaneControl - ID: ) -> Usuário 1 - Anki (WindowControl - ID: MainWindow) -> Exportar (WindowControl - ID: MainWindow.ExportDialog) ->  (GroupControl - ID: MainWindow.ExportDialog.buttonBox) -> Cancelar (ButtonControl - ID: )
+
+--- INSPETOR DE ELEMENTOS FINALIZADO ---
